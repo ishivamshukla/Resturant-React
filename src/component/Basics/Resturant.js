@@ -17,6 +17,7 @@ console.log(uniqueList);
 
 const Resturant = () => {
   const [menuData, setMenuData] = useState(Menu);
+  // eslint-disable-next-line no-unused-vars
   const [menuList, setMenuList] = useState(uniqueList);
 
   const filterItem = (category) => {
